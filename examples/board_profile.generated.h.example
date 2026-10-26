@@ -1,0 +1,36 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Generated from RUN00-PROFILE.TXT; do not edit by hand. */
+#ifndef GU_BOARD_PROFILE_GENERATED_H
+#define GU_BOARD_PROFILE_GENERATED_H
+
+/* source diag rows: 60 */
+#undef GU_BOARD_ID
+#define GU_BOARD_ID 0x278310deU
+#undef GU_BOARD_SUBSYSTEM
+#define GU_BOARD_SUBSYSTEM 0x41b01458U
+#undef GU_BOARD_REVISION
+#define GU_BOARD_REVISION 0xa1U
+#undef GU_BOARD_CHIP
+#define GU_BOARD_CHIP 0x194000a1U
+#undef GU_BAR0_SIZE
+#define GU_BAR0_SIZE 0x1000000ULL
+#undef GU_PLM_FEAT
+#define GU_PLM_FEAT 0xffffff8fU
+#undef GU_SS0_COLD
+#define GU_SS0_COLD 0x53477150U
+#undef GU_SS1_COLD
+#define GU_SS1_COLD 0x7U
+#undef GU_VRAM_MIB
+#define GU_VRAM_MIB 0x2ffaU
+#undef GU_ROM_SIZE
+#define GU_ROM_SIZE 0x24c00U
+#undef GU_PROM_VIEW_BYTES
+#define GU_PROM_VIEW_BYTES 0x100000U
+#undef GU_PROM_BAR_OFFSET
+#define GU_PROM_BAR_OFFSET 0x300000U
+#undef GU_ROM_SHA256
+#define GU_ROM_SHA256 "55a69c17782708b0d2593baa217c3538fc339db3360854c1638021e663f9241b"
+#undef GU_PROM_VIEW_SHA256
+#define GU_PROM_VIEW_SHA256 "ada4bcaf6d7953deb1c3dfc657def5bf540edeeab2706726ab477076425dcdbf"
+
+#endif

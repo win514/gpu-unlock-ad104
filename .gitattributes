@@ -1,0 +1,21 @@
+* text=auto
+
+# PowerShell should stay CRLF; everything else LF
+*.ps1   text eol=crlf
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
+*.sh    text eol=lf
+*.py    text eol=lf
+*.c     text eol=lf
+*.h     text eol=lf
+*.inc   text eol=lf
+*.cu    text eol=lf
+*.md    text eol=lf
+
+# firmware, images and binaries are never diffed
+*.bin   binary
+*.efi   binary
+*.EFI   binary
+*.sys   binary
+*.zst   binary
+*.xz    binary

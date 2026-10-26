@@ -1,0 +1,25 @@
+# build outputs
+/build/
+/downloads/
+/out/
+
+# generated per-board profile (contains this machine's hardware fingerprints)
+src/unlock/board_profile.generated.h
+
+# firmware and binaries never live in the tree
+*.bin
+*.efi
+*.EFI
+*.sys
+*.pkg.tar.zst
+*.tar.xz
+
+# python
+__pycache__/
+*.pyc
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
